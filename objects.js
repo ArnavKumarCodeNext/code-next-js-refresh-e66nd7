@@ -10,10 +10,11 @@ render('objects1', () => {
 
 // TODO: Create an object of objects and return it.
 render('objects2', () => {
-
+  const object3 = {
+    apples: 'green',
+  };
+  return `object3: ${object3.apples}`;
 });
 
 // TODO: Create an array of objects and return the element at index 0.
-render('objects3', () => {
-  
-});
+render('objects3', () => {});
